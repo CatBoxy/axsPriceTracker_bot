@@ -1,0 +1,30 @@
+{
+  "name": "slp_bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": "16.13.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CatBoxy/slpPriceTracker_bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "coingecko-api": "^1.0.10",
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/CatBoxy/slpPriceTracker_bot/issues"
+  },
+  "homepage": "https://github.com/CatBoxy/slpPriceTracker_bot#readme",
+  "devDependencies": {},
+  "description": ""
+}
