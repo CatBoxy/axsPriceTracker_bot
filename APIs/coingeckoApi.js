@@ -19,6 +19,7 @@ const coinGecko = {
 			return priceUsd;
 		} catch (error) {
 			let message = `Algo salio mal, ${error}`;
+			console.log(error);
 			return message;
 		}
 
