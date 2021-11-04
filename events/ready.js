@@ -13,6 +13,7 @@ module.exports = {
 			if (typeof response !== 'number') {
 				client.user.setActivity(`ERROR`, { type: 'WATCHING' });
 				user.send(`${response}`);
+				console.log(response);
 			}else{
 				client.user.setActivity(`$${response}`, { type: 'WATCHING' });
 			}
