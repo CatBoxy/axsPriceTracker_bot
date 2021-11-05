@@ -9,7 +9,7 @@ const coinGecko = {
 		try {
 			// Queries the API
 			const geckoJson = await CoinGeckoClient.simple.price({
-				ids: 'axie-infinity',
+				ids: 'axie-ininity',
 				vs_currencies: 'usd',
 			});
 			// Stores the data value recieved from the API
