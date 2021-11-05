@@ -13,6 +13,7 @@ module.exports = {
 			const user = await client.users.fetch('350460024981815299');
 			if (typeof response !== 'number') {
 				// notifies discord owner the error
+				client.user.setActivity(`for price`);
 				user.send(`${response}`);
 				console.log(response);
 			}else{
